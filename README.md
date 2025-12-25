@@ -1,39 +1,44 @@
-Problem Statement
-Traditional machine learning models struggle with raw image data due to high dimensionality and spatial complexity. This project solves the problem by using a Convolutional Neural Network (CNN) to extract meaningful features and classify small images efficiently.
+# Small Image Classification Using Convolutional Neural Network
 
-Solution Overview
-A CNN-based deep learning model is trained on a dataset of small images. The network uses convolution, pooling, and fully connected layers to learn hierarchical image features and predict class labels.
+## 📌 Project Overview
+This project focuses on classifying small-sized images using a Convolutional Neural Network (CNN). CNNs are highly effective for image-related tasks as they automatically learn spatial hierarchies of features through convolutional layers.
 
-Key Features
+The project demonstrates the complete deep learning workflow including data preprocessing, model building, training, evaluation, and result visualization.
 
-Image preprocessing and normalization
+---
 
-CNN architecture with Conv2D, MaxPooling, and Dense layers
+## 🧠 Problem Statement
+Traditional machine learning techniques struggle with image data due to manual feature extraction. This project solves the problem by using a CNN that automatically extracts meaningful features and accurately classifies images into different categories.
 
-Model training, validation, and evaluation
+---
 
-Performance visualization (accuracy & loss)
+## 🚀 Features
+- Image classification using CNN
+- Automatic feature extraction
+- Training and evaluation on small image datasets
+- Visualization of accuracy and loss
+- Modular and easy-to-understand code
 
-Supports multi-class image classification
+---
 
-Tech Stack
+## 🛠️ Technologies Used
+- Python  
+- TensorFlow / Keras  
+- NumPy  
+- Matplotlib  
+- Jupyter Notebook  
 
-Python
+---
 
-TensorFlow / Keras
+## 📂 Dataset
+- Small image dataset (e.g., CIFAR-10 or custom dataset)
+- Images are resized and normalized before training
+- Dataset split into training and testing sets
 
-NumPy
+---
 
-Matplotlib
-
-Jupyter Notebook
-
-Use Cases
-
-Handwritten digit recognition
-
-Small object recognition
-
-CIFAR-10–like datasets
-
-Educational deep learning demos
+## 🏗️ Model Architecture
+- Convolutional Layers
+- ReLU Activation
+- MaxPooling Layers
+- Full
