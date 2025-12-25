@@ -1,141 +1,106 @@
-🖼️ Small Image Classification Using Convolutional Neural Networks (CNN)
-📌 Project Overview
+# 🖼️ Small Image Classification Using Convolutional Neural Networks (CNN)
 
-This repository presents a combined mini deep learning project demonstrating three different CNN-based approaches for small image classification:
+## 📌 Project Overview
+This repository contains a combined mini deep learning project that demonstrates three different Convolutional Neural Network (CNN) approaches for small image classification:
 
-Basic CNN on CIFAR dataset
+1. Basic CNN on CIFAR dataset  
+2. CNN with Data Augmentation  
+3. CNN using Transfer Learning  
 
-CNN with Data Augmentation
+The project highlights the progression from a simple CNN model to more advanced techniques that improve accuracy and generalization.
 
-CNN using Transfer Learning
+---
 
-The objective is to showcase the evolution of image classification techniques, starting from a custom CNN model and progressing toward more advanced methods to improve performance and generalization.
+## 🧠 Problem Statement
+Traditional machine learning methods require manual feature extraction and do not perform well on image data.  
+This project solves the problem using Convolutional Neural Networks (CNNs), which automatically learn spatial features directly from images.
 
-🧠 Problem Statement
+The project further explores how data augmentation and transfer learning enhance model performance and robustness.
 
-Traditional machine learning methods struggle with image data due to the need for manual feature extraction.
-This project addresses the challenge by using Convolutional Neural Networks (CNNs), which automatically learn spatial features and hierarchies directly from raw images.
+---
 
-The project also explores how data augmentation and transfer learning can significantly enhance model accuracy and robustness.
+## 🚀 Project Components
 
-🚀 Project Components
-1️⃣ CNN on CIFAR Dataset
+### 1️⃣ CNN on CIFAR Dataset
+- Custom CNN architecture built from scratch
+- Trained on a small image dataset (CIFAR-like)
+- Establishes a baseline model for comparison
 
-Implemented a custom CNN architecture
+Notebook:
+- `cnn_cifar.ipynb`
 
-Trained and evaluated on a small image dataset (CIFAR-like)
+---
 
-Established a baseline model for comparison
+### 2️⃣ CNN with Data Augmentation
+- Image augmentation techniques applied:
+  - Rotation
+  - Zoom
+  - Horizontal flipping
+- Helps reduce overfitting
+- Improves generalization on unseen data
 
-📓 Notebook:
+Notebook:
+- `cnn_flower_image_data_augmentations.ipynb`
 
-cnn_cifar.ipynb
+---
 
-2️⃣ CNN with Data Augmentation
+### 3️⃣ CNN with Transfer Learning
+- Uses a pre-trained CNN model (e.g., VGG / ResNet)
+- Leverages learned features from large-scale datasets
+- Achieves better accuracy with faster convergence
 
-Applied image augmentation techniques such as:
+Notebook:
+- `cnn_transfer_learning.ipynb`
 
-Rotation
+---
 
-Zoom
+## 🛠️ Technologies Used
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Jupyter Notebook
 
-Horizontal flipping
+---
 
-Reduced overfitting
+## 📂 Dataset
+- Small image datasets such as CIFAR-10 and flower image datasets
+- Images are resized and normalized
+- Dataset split into training, validation, and testing sets
 
-Improved generalization on unseen data
+---
 
-📓 Notebook:
+## 🏗️ Model Architecture (Generic)
+- Convolutional Layers
+- ReLU Activation
+- MaxPooling Layers
+- Fully Connected (Dense) Layers
+- Softmax Output Layer
 
-cnn_flower_image_data_augmentations.ipynb
+---
 
-3️⃣ CNN with Transfer Learning
+## 📊 Results & Observations
+- Basic CNN provides a strong baseline
+- Data augmentation improves model generalization
+- Transfer learning achieves the best overall performance
+- Progressive improvement observed across all approaches
 
-Used a pre-trained CNN model (e.g., VGG / ResNet)
+---
 
-Leveraged learned features from large-scale datasets
+## 🎯 Learning Outcomes
+- Practical understanding of CNNs
+- Experience with image preprocessing and augmentation
+- Knowledge of transfer learning techniques
+- Ability to compare different deep learning strategies
 
-Achieved higher accuracy with faster convergence
+---
 
-📓 Notebook:
+## 📌 Conclusion
+This combined mini project demonstrates a complete deep learning workflow for image classification and serves as a strong portfolio project for academic evaluation, internships, and interviews.
 
-cnn_transfer_learning.ipynb
-
-🛠️ Technologies Used
-
-Python
-
-TensorFlow / Keras
-
-NumPy
-
-Matplotlib
-
-Jupyter Notebook
-
-📂 Dataset
-
-Small image datasets such as CIFAR-10 and flower image datasets
-
-Images are:
-
-Resized
-
-Normalized
-
-Dataset split into:
-
-Training set
-
-Validation set
-
-Testing set
-
-🏗️ Model Architecture (Generic)
-
-Convolutional Layers
-
-ReLU Activation
-
-MaxPooling Layers
-
-Fully Connected (Dense) Layers
-
-Softmax Output Layer
-
-📊 Results & Observations
-
-Basic CNN provides a strong baseline
-
-Data augmentation improves generalization
-
-Transfer learning delivers the best performance
-
-Progressive improvement observed across all three approaches
-
-🎯 Learning Outcomes
-
-Hands-on experience with CNNs
-
-Understanding of overfitting and regularization
-
-Practical implementation of data augmentation
-
-Effective use of transfer learning in deep learning projects
-
-📌 Conclusion
-
-This combined project demonstrates a complete learning curve in deep learning for image classification, making it suitable for:
-
-Academic submissions
-
-Internship portfolios
-
-Resume and interview discussions
-
-📬 Author
-
-Anshul Verma
-B.Tech CSE (AI & ML), 3rd Year
+---
+
+## 📬 Author
+**Anshul Verma**  
+B.Tech CSE (AI & ML), 3rd Year  
 COER University, Roorkee
-
